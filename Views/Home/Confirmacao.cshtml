@@ -1,0 +1,19 @@
+@model Agendamento
+@{
+    ViewData["Title"] = "Confirmacao";
+}
+<div id="Confirmacao-content">
+    <div id="Confirmacao-dados">
+        <h1>AGENDAMENTO CONFIRMADO</h1>
+        <h3>SEUS DADOS:</h3>
+        <ul>
+            <li>Nome: @Dados.agendado.nome</li>
+            <li>Telefone: @Dados.agendado.fone</li>
+            <li>Data: @Dados.agendado.data</li>
+            <li>Animal: @Dados.agendado.animal</li>
+            <li>Necessidade: @Dados.agendado.necessidade</li>
+        </ul>
+    </div>
+
+
+        
